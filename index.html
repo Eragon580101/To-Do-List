@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />    
+    <title>TO_DO_LIST</title>
+  </head>
+  <body>
+    <h1 class="heading">To Do List Tracker</h1>
+    <h3 class="sub-heading">Track your work</h3>
+    <div class="container">
+    <form class="search-container">
+      <input
+        type="text"
+        name="term"
+        class="search"
+        placeholder="Enter to search your task"
+      />
+      <button class="clear clear-search" type="reset"><i class="fas fa-xmark clear-search"></i></button>
+    </form>
+    </div>
+    <div class="task-container container">
+        <ul class="tasks">
+            <li class="task-card task-to-do">
+                <span class="task">Watch Movies</span>
+                <span class="delete"><i class="fas fa-trash"></i></span>
+            </li>
+        </ul>
+        <form class="add_task task-card">
+            <input name="task" type="text" class="add-task" placeholder="Enter to add task" />
+            <button type="submit" class="add-task-button">Add</button>
+        </form>
+
+    </div>
+    <div class="clear-all-container task-card container">
+      <p class="total-task">Your have 0 task remaining to do.</p>
+      <button class="clear-all">Clear all</button>
+    </div>   
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(48, 48, 48);
+}
+
+h1,h3{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    color: white;
+}
+
+.clear{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid rgb(255, 218, 71);
+    background-color: rgb(248, 169, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container{
+    gap: 10px;
+    background-color: rgb(107, 116, 116);
+    width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px auto;
+}
+
+
+.search-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search,.add-task{
+    border: 1px solid rgb(155, 133, 42);
+    border-radius: 5px;
+    width: 300px;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.task-card{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 110, 110);
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.delete,.add-task-button,.clear-all{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 113, 113);
+    border: none;
+    outline: none;
+    border-radius: 20%;
+    font-size: 22px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.add-task-button{
+    background-color: rgb(56, 180, 139);
+    font-size: 16px;
+    width: 50px;
+    border-radius: 10px;
+    color: rgb(231, 244, 255);
+}
+
+.clear-all{
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.clear-all-container{
+    background-color: rgb(107, 116, 116);
+}
+
+.add-task{
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.hide{
+    display: none;
+}
